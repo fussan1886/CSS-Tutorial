@@ -2,11 +2,33 @@
   margin-left: 30px;
 }
 
-
 /* todayクラスに適用するスタイル */
+.today {
+  font-size: 20px;
+}
 
+.today span {
+  display: inline-block;
+  background-color: #ffc0cb;
+  height: 28px;
+}
 /* temperatureクラスに適用するスタイル */
-
+.temperature {
+  background-color: #ffd8b2;
+}
 /* humidityクラスに適用するスタイル */
+.humidity {
+  background-color: #add8e6;
+}
 
+.inline-block {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
 /* img要素に適用するスタイル */
+img {
+  display: block;
+  width: 150px;
+  height: 150px;
+}
